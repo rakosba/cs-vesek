@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technológiai Cégek Értékelése</title>
+    <link rel="stylesheet" href="style.css" href="script.js">
+</head>
+<body>
+    <header>
+        <h1>Technológiai Cégek Értékelése</h1>
+    </header>
+    <main>
+        <div id="companies-list">
+            <!-- Google -->
+            <div class="company">
+                <img src="google.png" alt="Google logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText); 
+                }
+                </script>
+                
+            </div>
+            
+                <!-- Apple -->
+            <div class="company">
+                <img src="applelogo.png" alt="Apple logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText); 
+            }
+            </script>
+            </div>
+            <!-- Microsoft -->
+            <div class="company">
+                <img src="microsoft.png" alt="Microsoft logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText);
+        }
+    </script>            </div>
+           
+           <!-- Amazon -->
+            <div class="company">
+                <img src="amazob.jpg" alt="Amazon logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText);
+        }
+    </script>            </div>
+            
+            <!-- Facebook -->
+            <div class="company">
+                <img src="facebook.png" alt="Facebook logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText);
+        }
+    </script>
+            </div>
+            
+            <!-- IBM -->
+            <div class="company">
+                <img src="IBM.png" alt="IBM logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText);
+                        }
+                    </script>            </div>
+            
+            <!-- Oracle -->
+            <div class="company">
+                <img src="oracle.png" alt="Oracle logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>
+                
+            </div>
+            
+            <!-- Intel -->
+            <div class="company">
+                <img src="intel.png" alt="Intel logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText); 
+        }
+    </script>            </div>
+            
+            <!-- Samsung -->
+            <div class="company">
+                <img src="samsung.png" alt="Samsung logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+            
+            <!-- HP -->
+            <div class="company">
+                <img src="hp.png" alt="HP logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset(); 
+            alert("Vélemény mentve: " + opinionText); 
+        }
+    </script>            </div>
+            
+            
+            <!-- Cisco -->
+            <div class="company">
+                <img src="cisco.png" alt="Cisco logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+            <!-- Dell -->
+            <div class="company">
+                <img src="dell.png" alt="Dell logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+    <form id="opinionForm">
+        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="saveOpinion()">Mentés</button>
+    </form>
+    <div id="savedOpinions">
+        <h2>Mentett vélemények:</h2>
+        <ul id="opinionList"></ul>
+    </div>
+    <script>
+        function saveOpinion() {
+            var opinionText = document.getElementById("opinion").value;
+            if (opinionText.trim() === "") {
+                alert("Kérjük, írjon be egy véleményt!");
+                return;
+            }
+            var opinionList = document.getElementById("opinionList");
+            var listItem = document.createElement("li");
+            listItem.textContent = opinionText;
+            opinionList.appendChild(listItem);
+            document.getElementById("opinionForm").reset();
+            alert("Vélemény mentve: " + opinionText); 
+        }
+    </script>            </div>
+            <!-- NVIDIA -->
+            <div class="company">
+                <img src="nvidia.png" alt="NVIDIA logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                    </script>            </div>
+            <!-- Adobe -->
+            <div class="company">
+                <img src="adobe.png" alt="Adobe logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset();
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+            <!-- Tesla -->
+            <div class="company">
+                <img src="tesla.png" alt="Tesla logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset();
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+            <!-- VMware -->
+            <div class="company">
+                <img src="vmware.png" alt="VMware logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset();
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>
+            </div>
+            <!-- HP Enterprise -->
+            <div class="company">
+                <img src="enterprise.png" alt="HP Enterprise logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+            <!-- Qualcomm -->
+            <div class="company">
+                <img src="Qualcomm.png" alt="Qualcomm logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset();
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>            </div>
+        
+           
+            <div class="company">
+                <img src="sap.png" alt="SAP logo"
+                width="200px"
+                height="200px">
+                <div class="rating">
+                    <h1>Írja meg a véleményét:</h1>
+                    <form id="opinionForm">
+                        <textarea id="opinion" rows="4" cols="50"></textarea><br>
+                        <button type="button" onclick="saveOpinion()">Mentés</button>
+                    </form>
+                    <div id="savedOpinions">
+                        <h2>Mentett vélemények:</h2>
+                        <ul id="opinionList"></ul>
+                    </div>
+                    <script>
+                        function saveOpinion() {
+                            var opinionText = document.getElementById("opinion").value;
+                            if (opinionText.trim() === "") {
+                                alert("Kérjük, írjon be egy véleményt!");
+                                return;
+                            }
+                            var opinionList = document.getElementById("opinionList");
+                            var listItem = document.createElement("li");
+                            listItem.textContent = opinionText;
+                            opinionList.appendChild(listItem);
+                            document.getElementById("opinionForm").reset(); 
+                            alert("Vélemény mentve: " + opinionText); 
+                        }
+                    </script>
+       </div>
+    </main>
+    <footer>
+        <p>© 2024 TechnoReview</p>
+    </footer>
+</body>
+</html>
+
